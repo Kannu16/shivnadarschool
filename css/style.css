@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+.main-container {
+  background-image: url("/Image/main_bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+/* Start Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.bars-check-btn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #88a234;
+  float: right;
+  margin: 20px 0;
+  display: none;
+}
+#check {
+  display: none;
+}
+.navbar-right {
+  display: flex;
+  padding: 20px 0;
+}
+.navbar-right li {
+  list-style: none;
+}
+.navbar-right a {
+  text-decoration: none;
+  margin: 0 20px;
+  transition: 0.5s all;
+}
+.nav-links ul a {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.nav-links ul {
+  display: flex;
+  padding: 15px 10px;
+}
+.location ul {
+  display: flex;
+  background-color: #fff;
+  padding: 15px 35px;
+  border-radius: 2px;
+}
+.location ul li a {
+  color: #0045a7;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.navbar-right button {
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+.navbar-right a:hover {
+  color: #303030;
+}
+
+/* End Navbar Container */
+/* Start Section Container */
+.section-row {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}
+.section-column span {
+  font-weight: 100;
+  font-size: 4.5rem;
+}
+.section-column h2 {
+  font-size: 5.3rem;
+  color: #ffffff;
+}
+.section-column h3 {
+  color: #ffffff;
+  margin: 5px 0 30px 0;
+}
+.section-column button {
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/* End Section Container */
+/* Start news & Events Container */
+.news-events {
+  margin: 10% 0 3% 0;
+}
+.news-events-row {
+  display: flex;
+  justify-content: center;
+}
+.news-events-column1 p {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 20px 0;
+  color: #303030;
+}
+.news-events-column1 span {
+  color: #303030;
+}
+.news-events-column1 button {
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 30px 0;
+}
+.news-events-column2 img {
+  height: 60%;
+  width: 100%;
+}
+.news-events-column2 p {
+  color: #303030;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.news-events-column2 button {
+  padding: 12px 18px;
+  position: relative;
+  left: 85%;
+  background-color: #88a234;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* End news & Events Container */
+/* start /  Activities @ Shiv Nadar School  container */
+.activities-shiv-nadar h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.activities-shiv-nadar h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+.activities-shiv-nadar h2 {
+  margin-bottom: 50px;
+}
+.hi-slide {
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: auto;
+}
+.next-prev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -7px -5%;
+  position: relative;
+  top: 150px;
+}
+.hi-next,
+.hi-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #88a234;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+.hi-slide > ul {
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  padding: 0;
+  margin: 0;
+}
+.hi-slide > ul > li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 100px;
+  top: 100px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+.hi-slide > ul > li > img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.activities-learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.activities-learn-more button {
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+/* End /  Activities @ Shiv Nadar School  container */
+/* Start /   Our shining star container */
+.our-shining-star {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 0;
+}
+.our-shining-star-box1 button {
+  padding: 12px 18px;
+  position: relative;
+  background-color: #88a234;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.our-shining-star-box1 h2 {
+  color: #303030;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 30px 0;
+}
+.our-shining-star-box1 h3 {
+  color: #303030;
+}
+.our-shining-star-box1 {
+  width: 30%;
+}
+.our-shining-start-box2 {
+  display: flex;
+  justify-content: center;
+}
+.our-shining-start-box3 {
+  margin-top: 10%;
+  width: 50%;
+}
+.our-shining-start-box3 p {
+  font-size: 2rem;
+  color: #303030;
+}
+.our-shining-start-box3 h5 {
+  margin: 10px 0;
+}
+
+.our-shining-start-box2 img {
+  width: 90%;
+}
+.blue-bg {
+  background-color: #1a58b0;
+  width: 100%;
+  height: 70px;
+  margin-top: -20%;
+}
+.blue-bg button {
+  position: absolute;
+  right: 15%;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/* End /  Our shining star container */
+/* Start /  /  Find us @ shivnadarschool   / */
+.Find-us-shivnadarschool-container {
+  text-align: center;
+  margin: 10% 0 0 0;
+}
+.Find-us-shivnadarschool-container h2 {
+  margin: 20px 0 40px 0;
+}
+.Find-us-shivnadarschool {
+  display: flex;
+  overflow: scroll;
+}
+.Find-us-shivnadarschool img {
+  transition: 0.5s;
+}
+.Find-us-shivnadarschool img:hover {
+  transform: scale(1.1);
+}
+.Find-us-shivnadarschool img {
+  width: 323px;
+  height: 250px;
+}
+
+/* End / /  Find us @ shivnadarschool   /  */
+/* Start Our mission container */
+.our-mission-container {
+  background-image: url("/Image/Our-mission.jpg");
+  height: 80vh;
+  margin: 10% 0;
+}
+.our-mission-box-1 button {
+  text-transform: uppercase;
+  background-color: #88a234;
+  padding: 16px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+.our-mission-box-1 {
+  padding: 7rem;
+}
+.our-mission-box-1 h2 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 2.7rem;
+  margin: 20px 0;
+}
+.our-mission-box-1 h3 {
+  color: #ffffff;
+}
+
+/* End our mission container */
+/* Start Footer container */
+.footer {
+  background-image: url("/Image/footer_bg.png");
+  width: 100%;
+  height: 100vh;
+  margin: 10% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+.group-website {
+  width: 25%;
+  margin: 0 30px;
+}
+.group-website ul {
+  margin: 10% 0;
+}
+.noida-school {
+  width: 25%;
+  margin: 0 30px;
+}
+.noida-school ul {
+  margin: 10% 0;
+}
+.gurugram-school ul {
+  margin: 10% 0;
+}
+.gurugram-school {
+  width: 25%;
+  margin: 0 30px;
+}
+.faridabad-school ul {
+  margin: 10% 0;
+}
+.faridabad-school {
+  width: 25%;
+  margin: 0 30px;
+}
+.footer-container li {
+  list-style: none;
+  margin: 10px 0;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: 0.3s all;
+}
+.footer-container a:hover {
+  color: #000;
+}
+.footer-container hr {
+  margin-top: 20px;
+}
+.footer-container h3 {
+  color: #ffffff;
+}
+.footer-text span {
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.footer-text p {
+  color: #ffffff;
+  margin-top: 10px;
+}
+.footer-creator-part {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-creator-part p {
+  font-weight: bold;
+  color: #303030;
+}
+.footer-social-icon {
+  font-weight: bold;
+  color: #0045a7;
+  margin: 0 20px;
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.footer-social-icon:hover {
+  color: #ffffff;
+  background-color: #0045a7;
+}
+.footer-creator-part span {
+  color: #0045a7;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* End Footer container */

@@ -1,0 +1,123 @@
+@media only screen and (max-width:800px){
+
+    .section-column h2 span{
+        font-size: 3rem;
+    }
+    .section-column h2{
+        font-size: 4rem;
+    }
+    .news-events-row{
+        flex-direction: column;
+    }
+    .we-are-social{
+        flex-direction: column;
+        overflow: visible;
+        width: 80%;
+        margin: auto;
+    }
+    .activities-shiv-nadar{
+        overflow: hidden;
+    }
+    .hi-slide{
+        margin: 0;
+    }
+    .next-prev{
+        justify-content: center;
+        margin-bottom: 10px;
+        top: 0;
+    }
+    .hi-next{
+        margin-left: 100px;
+    }
+    .activities-learn-more{
+        margin: 70px 0;
+    }
+
+    .our-shining-star{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-shining-star-box1 {
+        width: 100%;
+    }
+    .our-shining-start-box3 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-shining-start-box2 img {
+       margin-top: 20px;
+    }
+    .blue-bg{
+        margin-top: 10px;
+    }
+    .blue-bg button{
+        position: relative;
+    }
+    .our-mission{
+        display: none;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #0045A7;
+    }
+    .gurugram-school,.noida-school,.faridabad-school,.group-website {
+        width: 100%;
+        overflow: hidden;
+    }
+    .footer-text p{
+        color: #333;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer-creator-part{
+        position: relative;
+        top: 700px;
+        flex-direction: column;
+        
+    }
+    .footer-container hr{
+        width: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width:1200px){
+    .navbar-right{
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -400px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s all;
+        background-color: #0045A7;
+        width:70%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-right button{
+        margin-left: 0;
+    }
+    .nav-links ul,.location ul{
+        flex-direction: column;
+    }
+    .location{
+        margin: 20px 0;
+    }
+    .bars-check-btn{
+        display: block;
+    }
+    #check:checked ~ .navbar-right{
+        top: 130px;
+    }
+}
+@media only screen and (max-width:500px){
+  .hi-slide{
+      margin: 0 -50%;
+  }
+}
