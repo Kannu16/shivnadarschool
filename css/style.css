@@ -6,7 +6,7 @@
   font-family: "Titillium Web", sans-serif;
 }
 .main-container {
-  background-image: url("/Image/main_bg.jpg");
+  background-image: url("../Image/main_bg.jpg");
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -343,7 +343,7 @@
 /* End / /  Find us @ shivnadarschool   /  */
 /* Start Our mission container */
 .our-mission-container {
-  background-image: url("/Image/Our-mission.jpg");
+  background-image: url("../Image/Our-mission.jpg");
   height: 80vh;
   margin: 10% 0;
 }
@@ -375,7 +375,7 @@
 /* End our mission container */
 /* Start Footer container */
 .footer {
-  background-image: url("/Image/footer_bg.png");
+  background-image: url("../Image/footer_bg.png");
   width: 100%;
   height: 100vh;
   margin: 10% 0 0 0;
